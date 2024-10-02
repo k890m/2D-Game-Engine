@@ -1,5 +1,3 @@
-// src/GameEngine.h
-
 #ifndef GAMEENGINE_H
 #define GAMEENGINE_H
 
@@ -7,6 +5,7 @@
 #include <box2d/box2d.h>
 
 class GameEngine {
+
 public:
     GameEngine();
     void run();
