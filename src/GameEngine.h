@@ -17,6 +17,12 @@ private:
 
     sf::RenderWindow window;
     b2World physicsWorld;
+
+    b2Body* dynamicBody;
+    sf::RectangleShape boxShape;
+
+    b2Body* groundBody;
+
 };
 
 #endif
